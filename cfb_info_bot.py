@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#cfb_info_bot version 1.0
 import urllib
 import os
 import praw
@@ -7,7 +8,7 @@ import time
 already_done=[]
 user_agent='a tool for cfb'
 r=praw.Reddit(user_agent=user_agent)
-oauth_helper=PrawOAuth2Mini(r, app_key='lXiW8DtaWhRIrQ',app_secret='bOh4xyyUVnxPUlDkMwq-549Wxfc',access_token='57780469-guq3qtrnHelvsQRWOXRodj1pX-Y',refresh_token='57780469-7sJeUXRxFrOlKJjI6OMw73KNLm4',scopes=('save','submit','read','identity'))
+oauth_helper=PrawOAuth2Mini(r, app_key='redacted',app_secret='redacted',access_token='redacted',refresh_token='redacted',scopes=('save','submit','read','identity'))
 
 def lookup(team,start,end):
 	z=open('html.txt','w')
